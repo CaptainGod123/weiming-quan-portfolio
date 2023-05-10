@@ -9,10 +9,6 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-import {
-  Link
-} from "react-router-dom";
-
 import homePic from './image/homepic.png';
 import myPic from './image/me1.jpg';
 //{<img src = {homePic} width="75" alt="" />}
