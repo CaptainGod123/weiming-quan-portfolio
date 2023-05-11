@@ -1,45 +1,218 @@
-.content {
-  padding: 12px;
-  height: 800px;
-  width: 100%;
-}
-
-.anchor {
-  display: block;
-  position: relative;
-  visibility: hidden;
-
-  top: -103px;
-}
-
-.text-box {
+/* when the width is bigger than height, and the width is longer than 1460px */
+@media (orientation: landscape) and (min-width: 1460px){ 
+  .content {
+    padding: 12px;
+    height: 800px;
+    width: 100%;
+  }
   
-  color: rgb(0, 0, 0);
-  position: relative;
-  font-size: 16px;
-  font-family: American Typewriter, serif;
-  width: 45%;
-  top: 15%;
-  left: 50%;
-}
-
-#header {
-  text-align: center;
-  font-size: 3.5em;
-}
-
-#text {
-  text-align: left;
-  font-size: 1.5em;
-}
-
-
-.pic img{
-  position: relative;
-  width: 45%;
-  max-width: 600px;
-  left: 10%;
-  margin-top:-25%;
+  .anchor {
+    display: block;
+    position: relative;
+    visibility: hidden;
   
+    top: -103px;
+  }
+  
+  /*Landing*/
+  #container {
+    position: relative;
+    font-family: American Typewriter, serif;
+    top: 15%;
+  }
+  
+  #right-column {
+    float: left;
+    width: 50%;
+    display: block;
+    height:inherit;
+  }
+  
+  #header {
+    text-align: center;
+    font-size: 3.5rem;
+  }
+  
+  #text {
+    text-align: left;
+    font-size: 1.6rem;
+  }
+    
+  #left-column {
+    float: left;
+    width: 45%;
+    height:inherit;
+    text-align: center;
+  }
+  
+  .pic img{
+    position: relative;
+    max-width: 500px;
+  }
+  
+  /*Projects*/
+  #project-container {
+    position: relative;
+    font-family: American Typewriter, serif;
+  }
+  
+  #pleft-column {
+    float: left;
+    width: 50%;
+    height:inherit;
+    text-align: center;
+  }
+  
+  #pright-column {
+    float: left;
+    width: 50%;
+    display: block;
+    height:inherit;
+    text-align: center;
+  }
 }
 
+
+
+/* when the width is bigger than height, and the width is less than 1460px */
+@media (orientation: landscape) and (max-width: 1460px){ 
+  .content {
+    padding: 12px;
+    height: 800px;
+    width: 100%;
+  }
+  
+  .anchor {
+    display: block;
+    position: relative;
+    visibility: hidden;
+  
+    top: -103px;
+  }
+  
+  /*Landing*/
+  #container {
+    position: relative;
+    font-family: American Typewriter, serif;
+    top: 15%;
+  }
+  
+  #right-column {
+    float: left;
+    width: 50%;
+    display: block;
+    height:inherit;
+  }
+  
+  #header {
+    text-align: center;
+    font-size: 3.7vw;
+  }
+  
+  #text {
+    text-align: left;
+    font-size: 1.6vw;
+  }
+    
+  #left-column {
+    float: left;
+    width: 45%;
+    height:inherit;
+    text-align: center;
+  }
+  
+  .pic img{
+    position: relative;
+    width: 85%;
+    max-width: 500px;
+  }
+  
+  /*Projects*/
+  #project-container {
+    position: relative;
+    font-family: American Typewriter, serif;
+  }
+  
+  #pleft-column {
+    float: left;
+    width: 50%;
+    height:inherit;
+    text-align: center;
+  }
+  
+  #pright-column {
+    float: left;
+    width: 50%;
+    display: block;
+    height:inherit;
+    text-align: center;
+  }
+}
+
+/* when the height is bigger than width*/
+@media (orientation: portrait) { 
+  .content {
+    padding: 12px;
+    height: 1000px;
+    width: 100%;
+  }
+  
+  .anchor {
+    display: block;
+    position: relative;
+    visibility: hidden;
+  
+    top: -103px;
+  }
+  
+  #container {
+    position: relative;
+    font-family: American Typewriter, serif;
+    text-align: center;
+  }
+  
+
+  
+  #header {
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  #text {
+    text-align: left;
+    font-size: 1rem;
+  }
+  
+  .pic img{
+    position: relative;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+
+
+
+
+
+
+
+  #project-container {
+    position: relative;
+    font-family: American Typewriter, serif;
+  }
+  
+  #pleft-column {
+    float: left;
+    width: 50%;
+    height:inherit;
+    text-align: center;
+  }
+  
+  #pright-column {
+    float: left;
+    width: 50%;
+    display: block;
+    height:inherit;
+    text-align: center;
+  }
+}
