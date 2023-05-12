@@ -12,6 +12,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Particles from './components/ParticlesBG';
+import resumePDF from './image/Weiming Quan resume.pdf';
 
 import homePic from './image/homepic.png';
 import myPic from './image/me1.jpg';
@@ -23,7 +24,7 @@ import github from './image/github.svg';
 import email from './image/email.svg';
 import linkedin from './image/linkedin.svg';
 import resume from './image/resume.svg';
-//{<img src = {homePic} width="75" alt="" />}
+
 
 
 function App() {
@@ -178,13 +179,13 @@ function App() {
                 <p>Github</p>
             </li>
             <li>
-                <Button size="lg" variant="top" onClick={() => {navigator.clipboard.writeText("C_GOD#7995")}}>
+                <Button size="lg" variant="top" onClick={() => window.location = 'mailto:qwm0728@gmail.com'}>
                   <img src={email} alt="me"/>
                 </Button>
                 <p>Email</p>
             </li>
             <li>
-                <Button size="lg" variant="top" onClick={() => {navigator.clipboard.writeText("qwm0728@gmail.com")}}>
+                <Button size="lg" variant="top" onClick={event =>  window.open(resumePDF, '_blank')}>
                   <img src={resume} alt="me"/>
                 </Button>
                 <p>Resume</p>
