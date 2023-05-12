@@ -9,10 +9,19 @@
   position: relative;
   visibility: hidden;
 
-  top: -103px;
+  top: -23px;
 }
 
+.my-titles{
+  margin-top: 80px;
+}
 
+.my-titles p{
+  text-align: center;
+  font-family: American Typewriter, serif;
+  font-size: 3rem;
+
+}
 
 /* when the width is bigger than height, and the width is longer than 1460px */
 @media (orientation: landscape) and (min-width: 1460px){ 
@@ -344,3 +353,64 @@
     width: 100%;
   }
 }
+
+
+
+
+/*Contacts*/
+/* when the width is less than 730px */
+@media (max-width: 730px){ 
+  .contacts { 
+    width: 100%; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  .contacts ul { 
+    position: relative; 
+    float: left; 
+    display: block; 
+  }
+  .contacts ul li { 
+    position: relative; 
+    display: block; 
+    margin: 15px;
+  }
+  
+  .contacts ul li img{
+    width: 100px;
+  }
+  .contacts ul li p{
+    text-align: center;
+  }
+}
+
+/* when the width is more than 730px */
+@media (min-width: 730px){ 
+  .contacts { 
+    width: 100%; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  .contacts ul { 
+    list-style: none;
+    position: relative; 
+    float: left; 
+    display: block; 
+  }
+  .contacts ul li { 
+    position: relative; 
+    display: inline-block; 
+    
+    margin: 15px;
+  }
+  
+  .contacts ul li img{
+    width: 100px;
+  }
+  .contacts ul li p{
+    text-align: center;
+  }
+} 
+

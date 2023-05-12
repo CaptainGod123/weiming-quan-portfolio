@@ -19,6 +19,10 @@ import fakenews from './image/fakenews.jpg';
 import stocks from './image/stocks.jpg';
 import chatgpt from './image/chatgpt.jpg';
 import me from './image/me.png';
+import github from './image/github.svg';
+import email from './image/email.svg';
+import linkedin from './image/linkedin.svg';
+import resume from './image/resume.svg';
 //{<img src = {homePic} width="75" alt="" />}
 
 
@@ -37,10 +41,11 @@ function App() {
         </Container>
       </Navbar>
 
-
       <div className = "content">
         <a className = "anchor" id = "home"></a>
         <Particles />
+        <div className = "my-titles">
+        </div>
         <div id="container">
           <div id="left-column">
             <div className ='pic'>      
@@ -59,11 +64,13 @@ function App() {
           </div>
         </div>
       </div>
-      
 
       <div className = "content">
         <a className = "anchor" id = "projects"></a>
-
+        <div className = "my-titles">
+          <p>My Projects</p>
+        </div>
+        
         <div id="project-container">
           <div id="pleft-column">
             <ListGroup variant="flush">
@@ -149,16 +156,43 @@ function App() {
         </div>
       </div>
 
-
-
-
       <div className = "content">
       <a className = "anchor" id = "contact"></a>
-        This is my contacts 
+        <div className = "my-titles">
+          <p>My Contacts</p>
+        </div>
+        <div className ='contacts'>
+          <ul>
+            <li>
+              <div>
+                <Button size="lg" variant="top" onClick={event =>  window.open('https://www.linkedin.com/in/weiming-quan-6280b0243/', '_blank')}>
+                  <img src={linkedin} alt="me"/>
+                </Button>
+              </div>
+              <p>Linkedin</p>
+            </li>
+            <li>
+                <Button size="lg" variant="top" onClick={event =>  window.open('https://github.com/CaptainGod123', '_blank')}>
+                  <img src={github} alt="me"/>
+                </Button>
+                <p>Github</p>
+            </li>
+            <li>
+                <Button size="lg" variant="top" onClick={() => {navigator.clipboard.writeText("C_GOD#7995")}}>
+                  <img src={email} alt="me"/>
+                </Button>
+                <p>Email</p>
+            </li>
+            <li>
+                <Button size="lg" variant="top" onClick={() => {navigator.clipboard.writeText("qwm0728@gmail.com")}}>
+                  <img src={resume} alt="me"/>
+                </Button>
+                <p>Resume</p>
+            </li>
+          </ul>
+        </div>
+
       </div>
-
-
-
     </div>
   );
 }
