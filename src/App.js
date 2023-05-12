@@ -71,9 +71,6 @@ function App() {
                 <Card>
                   <Card.Header as="h5" className = 'cardMainTitle'><em>Credable</em></Card.Header>
                   <Card.Body>
-                    <Card.Title className = 'cardTitle'>
-                      <p>Credable, the fake news detector!</p>
-                    </Card.Title>
                     <Card.Text>
                       <div className = 'cards'>
                         <div className ='left-card'>
@@ -92,9 +89,6 @@ function App() {
                 <Card>  
                   <Card.Header as="h5" className = 'cardMainTitle'><em>StockthePast</em></Card.Header>
                   <Card.Body>
-                    <Card.Title className = 'cardTitle'>
-                      <p>StockthePast, the stock simulator!</p>
-                    </Card.Title>
                     <Card.Text>
                       <div className = 'cards'>
                         <div className ='left-card'>
@@ -118,9 +112,6 @@ function App() {
                 <Card>  
                   <Card.Header as="h5" className = 'cardMainTitle'><em>CallGPT</em></Card.Header>
                   <Card.Body>
-                    <Card.Title className = 'cardTitle'>
-                      <p>CallGPT, calling ChatGPT!</p>
-                    </Card.Title>
                     <Card.Text>
                       <div className = 'cards'>
                         <div className ='left-card'>
@@ -139,9 +130,6 @@ function App() {
                 <Card>  
                   <Card.Header as="h5" className = 'cardMainTitle'><em>this.website</em></Card.Header>
                   <Card.Body>
-                    <Card.Title className = 'cardTitle'>
-                      <p></p>
-                    </Card.Title>
                     <Card.Text>
                       <div className = 'cards'>
                         <div className ='left-card'>
