@@ -1,19 +1,59 @@
-/* when the width is bigger than height, and the width is longer than 1460px */
-@media (orientation: landscape) and (min-width: 1460px){ 
-  .content {
-    padding: 12px;
-    height: 800px;
+.content {
+  padding: 12px;
+  overflow: auto; 
+  width: 100%;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  visibility: hidden;
+}
+
+  /*Projects-Cards*/
+  .card {
+    font-family: American Typewriter, serif;
+    min-height: 350px;
+  }
+
+  .cardMainTitle{
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .cardTitle p{
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .cards{
+    position: relative;
+    overflow: auto;
+  }
+
+  .left-card{
+    float: left;
+    width: 45%;
+  }
+
+  .left-card img{
+    max-width: 100%;
+    width:auto;
+    max-height: 200px;
+  }
+
+  .right-card{
+    float: right;
+    width: 50%;
+    text-align: left;
+  }
+
+  .right-card p{
     width: 100%;
   }
-  
-  .anchor {
-    display: block;
-    position: relative;
-    visibility: hidden;
-  
-    top: -103px;
-  }
-  
+
+/* when the width is bigger than height, and the width is longer than 1460px */
+@media (orientation: landscape) and (min-width: 1460px){ 
   /*Landing*/
   #container {
     position: relative;
@@ -22,7 +62,7 @@
   }
   
   #right-column {
-    float: left;
+    float: right;
     width: 50%;
     display: block;
     height:inherit;
@@ -64,7 +104,7 @@
   }
   
   #pright-column {
-    float: left;
+    float: right;
     width: 50%;
     display: block;
     height:inherit;
@@ -76,20 +116,6 @@
 
 /* when the width is bigger than height, and the width is less than 1460px */
 @media (orientation: landscape) and (max-width: 1460px){ 
-  .content {
-    padding: 12px;
-    height: 800px;
-    width: 100%;
-  }
-  
-  .anchor {
-    display: block;
-    position: relative;
-    visibility: hidden;
-  
-    top: -103px;
-  }
-  
   /*Landing*/
   #container {
     position: relative;
@@ -98,7 +124,7 @@
   }
   
   #right-column {
-    float: left;
+    float: right;
     width: 50%;
     display: block;
     height:inherit;
@@ -141,7 +167,7 @@
   }
   
   #pright-column {
-    float: left;
+    float: right;
     width: 50%;
     display: block;
     height:inherit;
@@ -149,30 +175,15 @@
   }
 }
 
-/* when the height is bigger than width*/
-@media (orientation: portrait) { 
-  .content {
-    padding: 12px;
-    height: 1000px;
-    width: 100%;
-  }
-  
-  .anchor {
-    display: block;
-    position: relative;
-    visibility: hidden;
-  
-    top: -103px;
-  }
-  
+/* when the height is bigger than width, and the width is longer than 650px */
+@media (orientation: portrait) and (min-width: 650px){ 
+  /*Landing*/
   #container {
     position: relative;
     font-family: American Typewriter, serif;
     text-align: center;
   }
-  
 
-  
   #header {
     text-align: center;
     font-size: 3rem;
@@ -189,30 +200,42 @@
     max-width: 500px;
   }
   
-
-
-
-
-
-
-
+  /*Projects*/
   #project-container {
     position: relative;
     font-family: American Typewriter, serif;
   }
-  
-  #pleft-column {
-    float: left;
-    width: 50%;
-    height:inherit;
+}
+
+
+
+/* when the height is bigger than width, and the width is less than 650px */
+@media (orientation: portrait) and (max-width: 650px){ 
+  #container {
+    position: relative;
+    font-family: American Typewriter, serif;
     text-align: center;
   }
   
-  #pright-column {
-    float: left;
-    width: 50%;
-    display: block;
-    height:inherit;
+  #header {
     text-align: center;
+    font-size: 6vw;
+  }
+  
+  #text {
+    text-align: left;
+    font-size: 3.7vw;
+  }
+  
+  .pic img{
+    position: relative;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  /*Projects*/
+  #project-container {
+    position: relative;
+    font-family: American Typewriter, serif;
   }
 }

@@ -9,10 +9,16 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import ListGroup from 'react-bootstrap/ListGroup';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 import Particles from './components/ParticlesBG';
 
 import homePic from './image/homepic.png';
 import myPic from './image/me1.jpg';
+import fakenews from './image/fakenews.jpg';
+import stocks from './image/stocks.jpg';
+import chatgpt from './image/chatgpt.jpg';
+import me from './image/me.png';
 //{<img src = {homePic} width="75" alt="" />}
 
 
@@ -53,35 +59,104 @@ function App() {
           </div>
         </div>
       </div>
-
-
-
-
+      
 
       <div className = "content">
         <a className = "anchor" id = "projects"></a>
-        This is my projects 
-
-
-
 
         <div id="project-container">
           <div id="pleft-column">
-          <ListGroup variant="flush">
-          <ListGroup.Item>Cras justo odio</ListGroup.Item>
-          <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-          <ListGroup.Item>Morbi leo risus</ListGroup.Item>
-          <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
-        </ListGroup>
+            <ListGroup variant="flush">
+              <ListGroup.Item>
+                <Card>
+                  <Card.Header as="h5" className = 'cardMainTitle'><em>Credable</em></Card.Header>
+                  <Card.Body>
+                    <Card.Title className = 'cardTitle'>
+                      <p>Credable, the fake news detector!</p>
+                    </Card.Title>
+                    <Card.Text>
+                      <div className = 'cards'>
+                        <div className ='left-card'>
+                          <img src={fakenews} alt="me"/>
+                        </div>
+                        <div className ='right-card'>
+                          <p>This is a google extension that determines the credibility of the input news article. </p>
+                          <Button variant="primary" onClick = {event => window.open('https://github.com/CaptainGod123/Hack_The_Valley_2022_Fake_News_Detector', '_blank')}>Github</Button>
+                        </div>
+                      </div>
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </ListGroup.Item>
+              <ListGroup.Item>
+                <Card>  
+                  <Card.Header as="h5" className = 'cardMainTitle'><em>StockthePast</em></Card.Header>
+                  <Card.Body>
+                    <Card.Title className = 'cardTitle'>
+                      <p>StockthePast, the stock simulator!</p>
+                    </Card.Title>
+                    <Card.Text>
+                      <div className = 'cards'>
+                        <div className ='left-card'>
+                          <img src={stocks} alt="me"/>
+                        </div>
+                        <div className ='right-card'>
+                          <p>This is a fintech application that helps users practice their investing skills in the stock market. It is designed for a target group who are new to stock investing.</p>
+                          <Button variant="primary" onClick = {event => window.open('https://github.com/CaptainGod123/StockThePast', '_blank')}>Github</Button>
+                        </div>
+                      </div>
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </ListGroup.Item>
+            </ListGroup>
           </div>
 
           <div id="pright-column">
-          <ListGroup variant="flush">
-          <ListGroup.Item>Cras justo odio</ListGroup.Item>
-          <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-          <ListGroup.Item>Morbi leo risus</ListGroup.Item>
-          <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
-        </ListGroup>
+            <ListGroup variant="flush">
+              <ListGroup.Item>
+                <Card>  
+                  <Card.Header as="h5" className = 'cardMainTitle'><em>CallGPT</em></Card.Header>
+                  <Card.Body>
+                    <Card.Title className = 'cardTitle'>
+                      <p>CallGPT, calling ChatGPT!</p>
+                    </Card.Title>
+                    <Card.Text>
+                      <div className = 'cards'>
+                        <div className ='left-card'>
+                          <img src={chatgpt} alt="me"/>
+                        </div>
+                        <div className ='right-card'>
+                          <p>This is an application that allows users to make a phone call to ChatGPT for easier access.</p>
+                          <Button variant="primary" onClick = {event => window.open('https://github.com/CaptainGod123/DeerHack_CallGPT', '_blank')}>Github</Button>
+                        </div>
+                      </div>
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </ListGroup.Item>
+              <ListGroup.Item>
+                <Card>  
+                  <Card.Header as="h5" className = 'cardMainTitle'><em>this.website</em></Card.Header>
+                  <Card.Body>
+                    <Card.Title className = 'cardTitle'>
+                      <p></p>
+                    </Card.Title>
+                    <Card.Text>
+                      <div className = 'cards'>
+                        <div className ='left-card'>
+                          <img src={me} alt="me"/>
+                        </div>
+                        <div className ='right-card'>
+                          <p>This personal website is written in the languages JavaScript (React), CSS, and HTML.</p>
+                          <Button variant="primary" onClick = {event => window.open('https://github.com/CaptainGod123/weiming-quan-portfolio', '_blank')}>Github</Button>
+                        </div>
+                      </div>
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </ListGroup.Item>
+            </ListGroup>
           </div>
         </div>
       </div>
