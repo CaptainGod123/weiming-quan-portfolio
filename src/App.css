@@ -33,6 +33,7 @@
   }
   
   #right-column {
+    background-color: white;
     float: right;
     width: 50%;
     display: block;
@@ -132,6 +133,7 @@
   }
   
   #right-column {
+    background-color: white;
     float: right;
     width: 50%;
     display: block;
@@ -229,6 +231,10 @@
     text-align: center;
   }
 
+  #right-column{
+    background-color: white;
+  }
+
   #header {
     text-align: center;
     font-size: 3rem;
@@ -300,6 +306,10 @@
     position: relative;
     font-family: American Typewriter, serif;
     text-align: center;
+  }
+
+  #right-column{
+    background-color: white;
   }
   
   #header {
