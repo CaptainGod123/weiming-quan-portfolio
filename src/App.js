@@ -12,10 +12,10 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Particles from './components/ParticlesBG';
+import Carousel from 'react-bootstrap/Carousel';
 import resumePDF from './image/Weiming Quan resume.pdf';
 
 import homePic from './image/homepic.png';
-import myPic from './image/me1.jpg';
 import fakenews from './image/fakenews.jpg';
 import stocks from './image/stocks.jpg';
 import chatgpt from './image/chatgpt.jpg';
@@ -24,6 +24,8 @@ import github from './image/github.svg';
 import email from './image/email.svg';
 import linkedin from './image/linkedin.svg';
 import resume from './image/resume.svg';
+import myPic1 from './image/me1.jpg';
+import myPic2 from './image/Winning Price Pic.jpg';
 
 
 
@@ -48,9 +50,9 @@ function App() {
         <div className = "my-titles">
         </div>
         <div id="container">
-          <div id="left-column">
-            <div className ='pic'>      
-              <img src = {myPic} alt = "me" />
+          <div id="left-column" >
+            <div className ='pic'>
+              <img src = {myPic1} alt = "me" />
             </div>
           </div>
 
@@ -60,7 +62,9 @@ function App() {
               <p>Welcome to my Website!</p>
             </div>
             <div id ='text'>
-              <p>As a second-year student at the University of Toronto Mississauga, I am honing my expertise in the field of computer science, while also delving into the intricacies of statistics and economics through my major studies. I am also an analyst at the Capital Management club at UTM, where I am able to fully indulge my passion for statistics and economics. In my leisure time, I am an avid enthusiast of coding, traveling, and gaming, always seeking new experiences. Attending hackathons is also a particular interest of mine, as it allows me to challenge myself and push the boundaries of my knowledge and abilities. Please click on "My Projects" to learn more about the projects I worked on. Please don't hesitate to reach out.</p>
+              <p>I am a second-year computer science student at the University of Toronto Mississauga, with a passion for statistics and economics. I am also an analyst at the Capital Management club at UTM.</p>
+              <p>In my free time, I enjoy coding, traveling, gaming, and attending hackathons to challenge myself.</p>
+              <p>Fell free to check out "My Projects" to see some of my work and reach out to me at "My Contacts"!</p>
             </div>
           </div>
         </div>

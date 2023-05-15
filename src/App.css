@@ -1,3 +1,8 @@
+.carousel-control-prev, .carousel-control-next {
+  width: 1%;
+  /* visibility: hidden; */
+}
+
 .content {
   padding: 12px;
   overflow: auto; 
@@ -34,7 +39,7 @@
   
   #right-column {
     background-color: white;
-    float: right;
+    float: left;
     width: 50%;
     display: block;
     height:inherit;
@@ -50,12 +55,13 @@
     font-size: 1.6rem;
   }
     
-  #left-column {
+  #left-column{
     float: left;
     width: 45%;
-    height:inherit;
+    height: inherit;
     text-align: center;
   }
+
   
   .pic img{
     position: relative;
@@ -134,7 +140,7 @@
   
   #right-column {
     background-color: white;
-    float: right;
+    float: left;
     width: 50%;
     display: block;
     height:inherit;
