@@ -62,7 +62,7 @@ function App() {
               <p>Welcome to my Website!</p>
             </div>
             <div id ='text'>
-              <p>I am a second-year computer science student at the University of Toronto Mississauga, with a passion for statistics and economics. I am also an analyst at the Capital Management club at UTM.</p>
+              <p>I am a third-year computer science student at the University of Toronto Mississauga, with a passion for statistics and economics. I am also an analyst at the Capital Management club at UTM.</p>
               <p>In my free time, I enjoy coding, traveling, gaming, and attending hackathons to challenge myself.</p>
               <p>Fell free to check out "My Projects" to see some of my work and reach out to me at "My Contacts"!</p>
             </div>
