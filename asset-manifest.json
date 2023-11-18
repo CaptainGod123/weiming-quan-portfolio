@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/weiming-quan-portfolio/static/css/main.126ab8b6.css",
-    "main.js": "/weiming-quan-portfolio/static/js/main.04d32ebb.js",
+    "main.js": "/weiming-quan-portfolio/static/js/main.17e025d0.js",
     "static/js/787.0c3f432a.chunk.js": "/weiming-quan-portfolio/static/js/787.0c3f432a.chunk.js",
     "static/media/me1.jpg": "/weiming-quan-portfolio/static/media/me1.d2b783860ec90c539fe2.jpg",
     "static/media/Winning Price Pic.jpg": "/weiming-quan-portfolio/static/media/Winning Price Pic.df1879ad9088a87f0544.jpg",
     "static/media/stocks.jpg": "/weiming-quan-portfolio/static/media/stocks.74175febee58a28b0c13.jpg",
     "static/media/fakenews.jpg": "/weiming-quan-portfolio/static/media/fakenews.72de841825b1d1354c28.jpg",
+    "static/media/Weiming Quan resume.pdf": "/weiming-quan-portfolio/static/media/Weiming Quan resume.d416bad1a20778b6ab00.pdf",
     "static/media/me.png": "/weiming-quan-portfolio/static/media/me.1b279eef2885f969b61e.png",
-    "static/media/Weiming Quan resume.pdf": "/weiming-quan-portfolio/static/media/Weiming Quan resume.29da15333d11c9aac4c7.pdf",
     "static/media/chatgpt.jpg": "/weiming-quan-portfolio/static/media/chatgpt.0f4b1ce5a11a66767e9a.jpg",
     "static/media/homepic.png": "/weiming-quan-portfolio/static/media/homepic.712b7c979ab549417528.png",
     "static/media/resume.svg": "/weiming-quan-portfolio/static/media/resume.0865206577ecaacc966347f4aae8f72b.svg",
@@ -17,11 +17,11 @@
     "static/media/linkedin.svg": "/weiming-quan-portfolio/static/media/linkedin.27a3f479ca1bbb0ceef19e395081fb94.svg",
     "static/media/email.svg": "/weiming-quan-portfolio/static/media/email.0e360d89f55ba99cc1ef1d224e5829b2.svg",
     "main.126ab8b6.css.map": "/weiming-quan-portfolio/static/css/main.126ab8b6.css.map",
-    "main.04d32ebb.js.map": "/weiming-quan-portfolio/static/js/main.04d32ebb.js.map",
+    "main.17e025d0.js.map": "/weiming-quan-portfolio/static/js/main.17e025d0.js.map",
     "787.0c3f432a.chunk.js.map": "/weiming-quan-portfolio/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.126ab8b6.css",
-    "static/js/main.04d32ebb.js"
+    "static/js/main.17e025d0.js"
   ]
 }
