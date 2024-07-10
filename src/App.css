@@ -382,21 +382,21 @@
     display: flex;
     justify-content: center;
   }
-  .contacts ul { 
+  .contacts div { 
     position: relative; 
     float: left; 
     display: block; 
   }
-  .contacts ul li { 
+  .contacts li { 
     position: relative; 
     display: block; 
     margin: 15px;
   }
   
-  .contacts ul li img{
+  .contacts li img{
     width: 100px;
   }
-  .contacts ul li p{
+  .contacts li p{
     text-align: center;
   }
 }
@@ -409,23 +409,23 @@
     display: flex;
     justify-content: center;
   }
-  .contacts ul { 
+  .contacts div { 
     list-style: none;
     position: relative; 
     float: left; 
     display: block; 
   }
-  .contacts ul li { 
+  .contacts li { 
     position: relative; 
     display: inline-block; 
     
     margin: 15px;
   }
   
-  .contacts ul li img{
+  .contacts li img{
     width: 100px;
   }
-  .contacts ul li p{
+  .contacts li p{
     text-align: center;
   }
 } 

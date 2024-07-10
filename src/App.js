@@ -167,7 +167,7 @@ function App() {
           <p>My Contacts</p>
         </div>
         <div className ='contacts'>
-          <ul>
+          <div>
             <li>
               <div>
                 <Button size="lg" variant="top" onClick={event =>  window.open('https://www.linkedin.com/in/weiming-quan-6280b0243/', '_blank')}>
@@ -194,7 +194,7 @@ function App() {
                 </Button>
                 <p>Resume</p>
             </li>
-          </ul>
+          </div>
         </div>
 
       </div>
