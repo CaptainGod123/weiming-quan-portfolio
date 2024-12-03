@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/weiming-quan-portfolio/static/css/main.00ec97de.css",
-    "main.js": "/weiming-quan-portfolio/static/js/main.1b624f6c.js",
+    "main.js": "/weiming-quan-portfolio/static/js/main.ae65f91d.js",
     "static/js/787.0c3f432a.chunk.js": "/weiming-quan-portfolio/static/js/787.0c3f432a.chunk.js",
     "static/media/me1.jpg": "/weiming-quan-portfolio/static/media/me1.d2b783860ec90c539fe2.jpg",
     "static/media/Winning Price Pic.jpg": "/weiming-quan-portfolio/static/media/Winning Price Pic.df1879ad9088a87f0544.jpg",
     "static/media/stocks.jpg": "/weiming-quan-portfolio/static/media/stocks.74175febee58a28b0c13.jpg",
     "static/media/fakenews.jpg": "/weiming-quan-portfolio/static/media/fakenews.72de841825b1d1354c28.jpg",
-    "static/media/Weiming Quan resume.pdf": "/weiming-quan-portfolio/static/media/Weiming Quan resume.f72300127b873d89ecd8.pdf",
+    "static/media/Weiming Quan resume.pdf": "/weiming-quan-portfolio/static/media/Weiming Quan resume.2b8d09e9f7a3c76d408c.pdf",
     "static/media/me.png": "/weiming-quan-portfolio/static/media/me.1b279eef2885f969b61e.png",
     "static/media/chatgpt.jpg": "/weiming-quan-portfolio/static/media/chatgpt.0f4b1ce5a11a66767e9a.jpg",
     "static/media/homepic.png": "/weiming-quan-portfolio/static/media/homepic.712b7c979ab549417528.png",
@@ -17,11 +17,11 @@
     "static/media/linkedin.svg": "/weiming-quan-portfolio/static/media/linkedin.27a3f479ca1bbb0ceef19e395081fb94.svg",
     "static/media/email.svg": "/weiming-quan-portfolio/static/media/email.0e360d89f55ba99cc1ef1d224e5829b2.svg",
     "main.00ec97de.css.map": "/weiming-quan-portfolio/static/css/main.00ec97de.css.map",
-    "main.1b624f6c.js.map": "/weiming-quan-portfolio/static/js/main.1b624f6c.js.map",
+    "main.ae65f91d.js.map": "/weiming-quan-portfolio/static/js/main.ae65f91d.js.map",
     "787.0c3f432a.chunk.js.map": "/weiming-quan-portfolio/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.00ec97de.css",
-    "static/js/main.1b624f6c.js"
+    "static/js/main.ae65f91d.js"
   ]
 }
